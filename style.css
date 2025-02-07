@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 10px;
+}
+.brand img{
+    width: 55px;
+    padding: 0 8px;
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", serif;
+    display: flex;
+    width: 70%;
+    margin: 5px auto ;
+    border-radius: 12px;
+    background-image: url('srava.jpg'); /* Make sure 'e.jpg' is in the same directory */
+    background-size: 100% 100%; /* Ensures the image covers the whole container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+#myProgressBar{
+    width: 80vw;
+
+}
+
+.songItemcontainer{
+    margin-top: auto;
+}
+
+.songItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes elements to opposite sides */
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px 0;
+    width: 70%; /* Ensures it takes full width */
+    position: relative; /* Allows absolute positioning of the image */
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 0 15px;
+    margin: 20px 0;
+
+}
+
+.songItem img {
+    width: 35px;
+    margin: 40px 0;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.SongListPlay {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds spacing between elements */
+}
+
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
+}
