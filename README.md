@@ -24,6 +24,22 @@ This project is a **lightweight web-based music player** that allows users to:
 
 ---
 
+## 🎥 Live Demo  
+
+🔗 **[Try it Now! 🚀](https://sravaemmadi.github.io/MusicWorld/)**  
+
+---
+
+## 📷 Screenshots  
+
+### 🎵 Home Screen  
+![App Preview](path-to-screenshot.png) *(Replace with actual screenshot link)*  
+
+### 🎼 Music Player  
+![Music Player](path-to-music-player.png) *(Replace with actual screenshot link)*  
+
+---
+
 ## 🛠️ Technologies Used  
 
 | Technology | Purpose |
@@ -36,7 +52,7 @@ This project is a **lightweight web-based music player** that allows users to:
 
 ## 🎚️ How to Use  
 
-1️⃣ **Launch the Live Demo** in your favorite browser.  
+1️⃣ **[Open the Live Demo](https://sravaemmadi.github.io/MusicWorld/)** in your favorite browser.  
 2️⃣ **Browse the playlist** and select a track.  
 3️⃣ **Click the play button** to start listening.  
 4️⃣ **Use playback controls** to pause, skip, or rewind.  
