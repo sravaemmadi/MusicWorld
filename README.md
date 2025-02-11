@@ -57,8 +57,8 @@ This project is built as a **beginner-friendly music player**, focusing on UI de
 
 ## 👤 Author  
 
-👩‍💻 **Malaya Sugandhini**  
-📩 **Email:** sugandhinizeeth@gmail.com  
+👨‍💻 **Sravan Emmadi**  
+📩 **Email:** sra1tyson@gmail.com  
 
 ---
 
